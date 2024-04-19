@@ -5,12 +5,13 @@
 }
 
 :root {
-    --color-bg: linear-gradient(to top, #00d4ff, #000); 
-    --line-color: linear-gradient(to left top, #82ff86 20%, #144425, #104e1c);
-    --flower-center: radial-gradient(circle, #000, #ff5e00);
-    --leaf-color: radial-gradient(circle, #82ff86, #104e1c);
-    --petal-color: radial-gradient(circle, #ff5e00, #ffbb00);
+    --color-bg: linear-gradient(to top, #007bff, #000); /* Blue background gradient */
+    --line-color: linear-gradient(to left top, #82ff86 20%, #144425, #104e1c); /* Stem color remains green */
+    --flower-center: radial-gradient(circle, #000064, #0064ff); /* Dark to light blue center */
+    --leaf-color: radial-gradient(circle, #50c878, #104e1c); /* Green leaves (adjust if you want blue leaves) */
+    --petal-color: radial-gradient(circle, #0000ff, #6495ed); /* Dark to light blue petals */
 }
+
 
 body{
     background-image: var(--color-bg);
@@ -188,7 +189,7 @@ body{
     bottom: 0vmin;
     width: 1vmin;
     height: 1vmin;
-    background-color: rgb(255, 251, 0);
+    background-color: rgb(0, 191, 255);
     border-radius: 50%;
     filter: blur(0.2vmin);
     animation: light-ans-background 7s linear infinite backwards;
